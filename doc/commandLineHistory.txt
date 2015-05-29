@@ -7,13 +7,8 @@
 │5: npm install --save express jade      │
 │6: git init                             │.
 │7: git status                           │
-│8: git add -a                           │
 │9: git add -A                           │
-│10: git status                          │
-│11: git add -A                          │
 │12: git commit -m "fist commit"         │
-│13: git push                            │
-│14: git push MyFirstMean                │
 │15: git push https://github.com/SchackiC│
 │16: git pull https://github.com/SchackiC│.
 │17: git push https://github.com/SchackiC│
@@ -37,10 +32,6 @@
 │35: nodemon server.js                   │
 │36: y                                   │
 │37: git status                          │
-│38: git commit "setup project1"         │
-│39: git commit -A "setup project1"      │
-│40: git commit -A                       │
-│41: git commit -m "setup project 1"     │
 │42: git add -A                          │
 │43: git commit -m "setup project 1"     │
 │47: git push https://github.com/SchackiCh/MyFirstMEAN.git│
