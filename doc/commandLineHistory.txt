@@ -36,3 +36,256 @@
 │43: git commit -m "setup project 1"     │
 │47: git push https://github.com/SchackiCh/MyFirstMEAN.git│
 └────────────────────────────────────────┘
+
+
+
+##################################  Install mongoose ##################################################
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\CSchackerl>cd c:\git
+
+c:\git>cd c:\github\MyFirstMean
+
+c:\github\MyFirstMean>dir
+ Volume in drive C is SYSTEM
+ Volume Serial Number is C23D-E5D3
+
+ Directory of c:\github\MyFirstMean
+
+29.05.2015  16:19    <DIR>          .
+29.05.2015  16:19    <DIR>          ..
+28.05.2015  17:03                36 .bowerrc
+28.05.2015  16:52                19 .gitignore
+29.05.2015  09:17    <DIR>          .idea
+28.05.2015  17:10               319 bower.json
+29.05.2015  09:47    <DIR>          doc
+29.05.2015  16:18    <DIR>          node_modules
+29.05.2015  16:18               544 package.json
+29.05.2015  13:47    <DIR>          public
+28.05.2015  16:59                15 README.md
+29.05.2015  10:52    <DIR>          server
+29.05.2015  15:02             1.220 server.js
+               6 File(s)          2.153 bytes
+               7 Dir(s)  11.370.901.504 bytes free
+
+c:\github\MyFirstMean>npm install mongoose --msvs_version=2013
+|
+
+
+> kerberos@0.0.12 install c:\github\MyFirstMean\node_modules\mongoose\node_modul
+es\mongodb\node_modules\mongodb-core\node_modules\kerberos
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+/
+c:\github\MyFirstMean\node_modules\mongoose\node_modules\mongodb\node_modules\mo
+ngodb-core\node_modules\kerberos>node "C:\Program Files (x86)\nodejs\node_module
+s\npm\bin\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild
+Building the projects in this solution one at a time. To enable parallel build,
+please add the "/m" switch.
+  kerberos.cc
+  worker.cc
+  security_buffer.cc
+  security_buffer_descriptor.cc
+  security_context.cc
+  security_credentials.cc
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocale(337): wa
+rning C4530: C++ exception handler used, but unwind semantics are not enabled.
+Specify /EHsc (..\lib\win32\wrappers\security_context.cc) [c:\github\MyFirstMea
+n\node_modules\mongoose\node_modules\mongodb\node_modules\mongodb-core\node_mod
+ules\kerberos\build\kerberos.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocale(337): wa
+rning C4530: C++ exception handler used, but unwind semantics are not enabled.
+Specify /EHsc (..\lib\win32\wrappers\security_buffer.cc) [c:\github\MyFirstMean
+\node_modules\mongoose\node_modules\mongodb\node_modules\mongodb-core\node_modu
+les\kerberos\build\kerberos.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocale(337): wa
+rning C4530: C++ exception handler used, but unwind semantics are not enabled.
+Specify /EHsc (..\lib\win32\wrappers\security_buffer_descriptor.cc) [c:\github\
+MyFirstMean\node_modules\mongoose\node_modules\mongodb\node_modules\mongodb-cor
+e\node_modules\kerberos\build\kerberos.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocale(337): wa
+rning C4530: C++ exception handler used, but unwind semantics are not enabled.
+Specify /EHsc (..\lib\win32\wrappers\security_credentials.cc) [c:\github\MyFirs
+tMean\node_modules\mongoose\node_modules\mongodb\node_modules\mongodb-core\node
+_modules\kerberos\build\kerberos.vcxproj]
+C:\Users\CSchackerl\.node-gyp\0.10.36\deps\v8\include\v8.h(179): warning C4506:
+ no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v
+8::Object>::New(v8::Handle<v8::Object>)' (..\lib\win32\worker.cc) [c:\github\My
+FirstMean\node_modules\mongoose\node_modules\mongodb\node_modules\mongodb-core\
+node_modules\kerberos\build\kerberos.vcxproj]
+C:\Users\CSchackerl\.node-gyp\0.10.36\deps\v8\include\v8.h(184): warning C4506:
+ no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v
+8::Object>::New(v8::Handle<v8::Object>)' (..\lib\win32\wrappers\security_buffer
+.cc) [c:\github\MyFirstMean\node_modules\mongoose\node_modules\mongodb\node_mod
+ules\mongodb-core\node_modules\kerberos\build\kerberos.vcxproj]
+C:\Users\CSchackerl\.node-gyp\0.10.36\deps\v8\include\v8.h(184): warning C4506:
+ no definition for inline function 'v8::Persistent<v8::FunctionTemplate> v8::Pe
+rsistent<v8::FunctionTemplate>::New(v8::Handle<v8::FunctionTemplate>)' (..\lib\
+win32\wrappers\security_buffer.cc) [c:\github\MyFirstMean\node_modules\mongoose
+\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\build\ker
+beros.vcxproj]
+C:\Users\CSchackerl\.node-gyp\0.10.36\deps\v8\include\v8.h(184): warning C4506:
+ no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v
+8::Object>::New(v8::Handle<v8::Object>)' (..\lib\win32\kerberos.cc) [c:\github\
+MyFirstMean\node_modules\mongoose\node_modules\mongodb\node_modules\mongodb-cor
+e\node_modules\kerberos\build\kerberos.vcxproj]
+C:\Users\CSchackerl\.node-gyp\0.10.36\deps\v8\include\v8.h(184): warning C4506:
+ no definition for inline function 'v8::Persistent<v8::FunctionTemplate> v8::Pe
+rsistent<v8::FunctionTemplate>::New(v8::Handle<v8::FunctionTemplate>)' (..\lib\
+win32\kerberos.cc) [c:\github\MyFirstMean\node_modules\mongoose\node_modules\mo
+ngodb\node_modules\mongodb-core\node_modules\kerberos\build\kerberos.vcxproj]
+C:\Users\CSchackerl\.node-gyp\0.10.36\deps\v8\include\v8.h(184): warning C4506:
+ no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v
+8::Object>::New(v8::Handle<v8::Object>)' (..\lib\win32\wrappers\security_contex
+t.cc) [c:\github\MyFirstMean\node_modules\mongoose\node_modules\mongodb\node_mo
+dules\mongodb-core\node_modules\kerberos\build\kerberos.vcxproj]
+C:\Users\CSchackerl\.node-gyp\0.10.36\deps\v8\include\v8.h(184): warning C4506:
+ no definition for inline function 'v8::Persistent<v8::FunctionTemplate> v8::Pe
+rsistent<v8::FunctionTemplate>::New(v8::Handle<v8::FunctionTemplate>)' (..\lib\
+win32\wrappers\security_context.cc) [c:\github\MyFirstMean\node_modules\mongoos
+e\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\build\ke
+rberos.vcxproj]
+C:\Users\CSchackerl\.node-gyp\0.10.36\deps\v8\include\v8.h(184): warning C4506:
+ no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v
+8::Object>::New(v8::Handle<v8::Object>)' (..\lib\win32\wrappers\security_buffer
+_descriptor.cc) [c:\github\MyFirstMean\node_modules\mongoose\node_modules\mongo
+db\node_modules\mongodb-core\node_modules\kerberos\build\kerberos.vcxproj]
+C:\Users\CSchackerl\.node-gyp\0.10.36\deps\v8\include\v8.h(184): warning C4506:
+ no definition for inline function 'v8::Persistent<v8::FunctionTemplate> v8::Pe
+rsistent<v8::FunctionTemplate>::New(v8::Handle<v8::FunctionTemplate>)' (..\lib\
+win32\wrappers\security_buffer_descriptor.cc) [c:\github\MyFirstMean\node_modul
+es\mongoose\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerbero
+s\build\kerberos.vcxproj]
+C:\Users\CSchackerl\.node-gyp\0.10.36\deps\v8\include\v8.h(184): warning C4506:
+ no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v
+8::Object>::New(v8::Handle<v8::Object>)' (..\lib\win32\wrappers\security_creden
+tials.cc) [c:\github\MyFirstMean\node_modules\mongoose\node_modules\mongodb\nod
+e_modules\mongodb-core\node_modules\kerberos\build\kerberos.vcxproj]
+C:\Users\CSchackerl\.node-gyp\0.10.36\deps\v8\include\v8.h(184): warning C4506:
+ no definition for inline function 'v8::Persistent<v8::FunctionTemplate> v8::Pe
+rsistent<v8::FunctionTemplate>::New(v8::Handle<v8::FunctionTemplate>)' (..\lib\
+win32\wrappers\security_credentials.cc) [c:\github\MyFirstMean\node_modules\mon
+goose\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\buil
+d\kerberos.vcxproj]
+  base64.c
+  kerberos_sspi.c
+     Creating library c:\github\MyFirstMean\node_modules\mongoose\node_modules\
+  mongodb\node_modules\mongodb-core\node_modules\kerberos\build\Release\kerbero
+  s.lib and object c:\github\MyFirstMean\node_modules\mongoose\node_modules\mon
+  godb\node_modules\mongodb-core\node_modules\kerberos\build\Release\kerberos.e
+  xp
+  Generating code
+  Finished generating code
+  kerberos.vcxproj -> c:\github\MyFirstMean\node_modules\mongoose\node_modules\
+  mongodb\node_modules\mongodb-core\node_modules\kerberos\build\Release\\kerber
+  os.node
+
+> bson-ext@0.1.7 install c:\github\MyFirstMean\node_modules\mongoose\node_module
+s\bson\node_modules\bson-ext
+> (node-pre-gyp install --fallback-to-build) || (node-gyp rebuild 2> builderror.
+log) || (exit 0)
+
+
+c:\github\MyFirstMean\node_modules\mongoose\node_modules\bson\node_modules\bson-
+ext>node "C:\Program Files (x86)\nodejs\node_modules\npm\bin\node-gyp-bin\\..\..
+\node_modules\node-gyp\bin\node-gyp.js" clean
+
+c:\github\MyFirstMean\node_modules\mongoose\node_modules\bson\node_modules\bson-
+ext>node "C:\Program Files (x86)\nodejs\node_modules\npm\bin\node-gyp-bin\\..\..
+\node_modules\node-gyp\bin\node-gyp.js" configure --fallback-to-build --module=c
+:\github\MyFirstMean\node_modules\mongoose\node_modules\bson\node_modules\bson-e
+xt\build\Release\bson.node --module_name=bson --module_path=c:\github\MyFirstMea
+n\node_modules\mongoose\node_modules\bson\node_modules\bson-ext\build\Release --
+msvs_version=2013
+
+c:\github\MyFirstMean\node_modules\mongoose\node_modules\bson\node_modules\bson-
+ext>node "C:\Program Files (x86)\nodejs\node_modules\npm\bin\node-gyp-bin\\..\..
+\node_modules\node-gyp\bin\node-gyp.js" build --fallback-to-build --module=c:\gi
+thub\MyFirstMean\node_modules\mongoose\node_modules\bson\node_modules\bson-ext\b
+uild\Release\bson.node --module_name=bson --module_path=c:\github\MyFirstMean\no
+de_modules\mongoose\node_modules\bson\node_modules\bson-ext\build\Release
+Building the projects in this solution one at a time. To enable parallel build,
+please add the "/m" switch.
+  bson.cc
+..\ext\bson.cc(922): warning C4267: 'argument' : conversion from 'size_t' to 'u
+int32_t', possible loss of data [c:\github\MyFirstMean\node_modules\mongoose\no
+de_modules\bson\node_modules\bson-ext\build\bson.vcxproj]
+c:\github\myfirstmean\node_modules\mongoose\node_modules\bson\node_modules\bson
+-ext\node_modules\nan\nan_new.h(208): warning C4244: 'argument' : conversion fr
+om 'int64_t' to 'double', possible loss of data [c:\github\MyFirstMean\node_mod
+ules\mongoose\node_modules\bson\node_modules\bson-ext\build\bson.vcxproj]
+          ..\ext\bson.cc(589) : see reference to function template instantiatio
+  n 'v8::Local<v8::Number> NanNew<v8::Number,int64_t>(A0)' being compiled
+          with
+          [
+              A0=int64_t
+          ]
+..\ext\bson.cc(342): warning C4267: 'initializing' : conversion from 'size_t' t
+o 'uint32_t', possible loss of data [c:\github\MyFirstMean\node_modules\mongoos
+e\node_modules\bson\node_modules\bson-ext\build\bson.vcxproj]
+          ..\ext\bson.cc(153) : while compiling class template member function
+  'void BSONSerializer<CountStream>::SerializeValue(void *,const v8::Handle<v8:
+  :Value>)'
+          ..\ext\bson.cc(123) : see reference to function template instantiatio
+  n 'void BSONSerializer<CountStream>::SerializeValue(void *,const v8::Handle<v
+  8::Value>)' being compiled
+          ..\ext\bson.cc(103) : while compiling class template member function
+  'void BSONSerializer<CountStream>::SerializeDocument(const v8::Handle<v8::Val
+  ue> &)'
+          ..\ext\bson.cc(899) : see reference to function template instantiatio
+  n 'void BSONSerializer<CountStream>::SerializeDocument(const v8::Handle<v8::V
+  alue> &)' being compiled
+          ..\ext\bson.cc(898) : see reference to class template instantiation '
+  BSONSerializer<CountStream>' being compiled
+C:\Users\CSchackerl\.node-gyp\0.10.36\deps\v8\include\v8.h(179): warning C4506:
+ no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v
+8::Object>::New(v8::Handle<v8::Object>)' [c:\github\MyFirstMean\node_modules\mo
+ngoose\node_modules\bson\node_modules\bson-ext\build\bson.vcxproj]
+C:\Users\CSchackerl\.node-gyp\0.10.36\deps\v8\include\v8.h(179): warning C4506:
+ no definition for inline function 'v8::Persistent<v8::FunctionTemplate> v8::Pe
+rsistent<v8::FunctionTemplate>::New(v8::Handle<v8::FunctionTemplate>)' [c:\gith
+ub\MyFirstMean\node_modules\mongoose\node_modules\bson\node_modules\bson-ext\bu
+ild\bson.vcxproj]
+     Creating library c:\github\MyFirstMean\node_modules\mongoose\node_modules\
+  bson\node_modules\bson-ext\build\Release\bson.lib and object c:\github\MyFirs
+  tMean\node_modules\mongoose\node_modules\bson\node_modules\bson-ext\build\Rel
+  ease\bson.exp
+  Generating code
+  Finished generating code
+  bson.vcxproj -> c:\github\MyFirstMean\node_modules\mongoose\node_modules\bson
+  \node_modules\bson-ext\build\Release\\bson.node
+mongoose@4.0.5 node_modules\mongoose
+├── regexp-clone@0.0.1
+├── muri@1.0.0
+├── sliced@0.0.5
+├── hooks-fixed@1.0.1
+├── mpromise@0.5.4
+├── kareem@1.0.1
+├── mpath@0.1.1
+├── async@0.9.0
+├── ms@0.1.0
+├── mquery@1.5.1 (debug@0.7.4, bluebird@2.9.9)
+├── mongodb@2.0.33 (readable-stream@1.0.31, mongodb-core@1.1.32)
+└── bson@0.3.2 (bson-ext@0.1.7)
+
+c:\github\MyFirstMean>
+
+##########################################################################################
+
+Start MongoDB (inkl Angabe des Datenfolders):
+c:\Program Files\MongoDB\Server\3.0\bin>mongod.exe --dbpath C:\github\MyFirstMean\server\mongo
+
+... da wird dann der Port angegeben um sich so zu verbinden:
+	var mongoose = require('mongoose');
+	mongoose.connect('mongodb://localhost:27017/test');
+	var db = mongoose.connection;
+
+	db.on('error', console.error.bind(console, 'connection error:'));
+	db.once('open', function (callback) {
+		console.log('myfirstmean db opended');
+	});
+	
+	
+	(oder in Console eine Verbindung herstellen: U:\>"C:\Program Files\MongoDB\Server\3.0\bin\mongo.exe")
+	
